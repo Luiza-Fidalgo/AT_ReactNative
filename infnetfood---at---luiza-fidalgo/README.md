@@ -11,6 +11,7 @@ InfnetFood é um aplicativo de pedidos e delivery inspirado no universo de Harry
 3 - Tela de Produtos: Mostra os produtos de uma categoria selecionada.
 
 4 - Carrinho de Compras: Exibe os itens no carrinho e calcula o preço total.
+
 5 - Tela de Perfil: Mostra informações do usuário logado.
 
 6 - Tela de Pedidos: Exibe os pedidos atuais do usuário.
