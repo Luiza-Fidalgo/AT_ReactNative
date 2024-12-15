@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, Image } from 'react-native';
 
 const Produtos = ({ route, navigation }) => {
   const { produtos } = route.params;
@@ -41,6 +41,7 @@ const Produtos = ({ route, navigation }) => {
         data={produtos}
         renderItem={({ item }) => (
           <View style={styles.productItem}>
+            <Image source={item.imagem} style={styles.productImage} />
             <Text style={styles.productText}>{item.nome}</Text>
             <Text style={styles.productPrice}>R$ {item.preco ? item.preco.toFixed(2) : '0.00'}</Text>
             <TouchableOpacity
@@ -113,6 +114,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#D2691E',
   },
+  productImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 10,
+    marginBottom: 10,
+    alignSelf: 'center',
+  },
   productText: {
     fontSize: 18,
     color: '#333333',
@@ -183,14 +191,15 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 5,
-    alignItems: 'center',
     marginTop: 20,
   },
   finalizarButtonText: {
     color: '#FFF',
     fontSize: 18,
     fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
 
 export default Produtos;
+
