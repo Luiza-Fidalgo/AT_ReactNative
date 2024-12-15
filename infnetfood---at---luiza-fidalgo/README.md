@@ -5,19 +5,32 @@ InfnetFood é um aplicativo de pedidos e delivery inspirado no universo de Harry
 
 # Funcionalidades
 1 - Tela de Login: Permite que os usuários façam login com e-mail e senha, usando dados mockados.
+
 2 - Página Inicial: Exibe categorias de refeições utilizando o componente FlatList.
+
 3 - Tela de Produtos: Mostra os produtos de uma categoria selecionada.
+
 4 - Carrinho de Compras: Exibe os itens no carrinho e calcula o preço total.
 5 - Tela de Perfil: Mostra informações do usuário logado.
+
 6 - Tela de Pedidos: Exibe os pedidos atuais do usuário.
+
 7 - Mapa Simulado: Mostra um mapa com 10 restaurantes no Rio de Janeiro.
+
 8 - Tela de Detalhes do Restaurante: Exibe informações sobre um restaurante selecionado.
+
 9 - Tela de Checkout: Permite que o usuário revise o pedido e insira dados de entrega.
+
 10 - Autenticação Simples: Fluxo de login e navegação entre as áreas pública e logada.
+
 11 - Feedback Visual: Animações e mudanças de cor ao adicionar itens ao carrinho.
+
 12 - Tela de Configurações: Alternância entre tema claro e escuro.
+
 13 - Notificações Simuladas: Notificações sobre o status do pedido.
+
 14 - Testes Unitários: Testes de funcionalidades como exibição das categorias e navegação.
+
 15 - Publicação: Preparação para publicação do app.
 
 # Tecnologias Utilizadas
